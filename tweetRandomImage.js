@@ -29,7 +29,6 @@ const tweetRandomImage = async (Victoriano) => {
       );
       year = corte[1].slice(0, 4);
       description = corte[1].slice(5, -3);
-      // fifafofo2233*#
       Victoriano.post(
         "media/upload",
         { media_data: b64content },

@@ -12,6 +12,4 @@ const Victoriano = new Twit(config);
 tweetRandomImage(Victoriano);
 // Repeat each 1000*60*60*8 ms = 8 hours
 setInterval(tweetRandomImage, 28800000);
-
 // tweetImage(Victoriano,'first.jpg')
-// hemerotecaIlustrada
