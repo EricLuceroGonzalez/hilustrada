@@ -1,0 +1,17 @@
+{
+  "name": "bothistoriapanama",
+  "version": "1.0.0",
+  "description": "Bot de historia ilustrada",
+  "main": "nodeBot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Lucero Gonzalez",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "dropbox": "^10.9.0",
+    "isomorphic-fetch": "^3.0.0",
+    "twit": "^2.2.11"
+  }
+}
